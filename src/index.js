@@ -50,6 +50,6 @@ if (__POST_ROBOT__.__IE_POPUP_SUPPORT__) {
   };
 }
 
-if (__POST_ROBOT__.__AUTO_SETUP__) {
+if (__POST_ROBOT__.__AUTO_SETUP__ && typeof window !== 'undefined') {
   setup();
 }
