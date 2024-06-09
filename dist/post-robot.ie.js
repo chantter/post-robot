@@ -1206,7 +1206,7 @@
         }));
         function global_getGlobal(win) {
             void 0 === win && (win = window);
-            var globalKey = "__post_robot_11_0_1__";
+            var globalKey = "__post_robot_12_0_1__";
             return win !== window ? win[globalKey] : win[globalKey] = win[globalKey] || {};
         }
         var getObj = function() {
@@ -2183,7 +2183,7 @@
                 domainBuffer.buffer.push(message);
                 domainBuffer.flush = domainBuffer.flush || promise_ZalgoPromise.flush().then((function() {
                     if (isWindowClosed(win)) throw new Error("Window is closed");
-                    var serializedMessage = serializeMessage(win, domain, ((_ref = {}).__post_robot_11_0_1__ = domainBuffer.buffer || [], 
+                    var serializedMessage = serializeMessage(win, domain, ((_ref = {}).__post_robot_12_0_1__ = domainBuffer.buffer || [], 
                     _ref), {
                         on: on,
                         send: send
@@ -2265,7 +2265,7 @@
                     return;
                 }
                 if (parsedMessage && "object" == typeof parsedMessage && null !== parsedMessage) {
-                    var parseMessages = parsedMessage.__post_robot_11_0_1__;
+                    var parseMessages = parsedMessage.__post_robot_12_0_1__;
                     if (Array.isArray(parseMessages)) return parseMessages;
                 }
             }(event.data, source, origin, {
@@ -2739,7 +2739,7 @@
             }();
             (listener = globalStore().get("postMessageListener")) && listener.cancel();
             var listener;
-            delete window.__post_robot_11_0_1__;
+            delete window.__post_robot_12_0_1__;
         }
         var src_types_TYPES_0 = !0;
         function cleanUpWindow(win) {
