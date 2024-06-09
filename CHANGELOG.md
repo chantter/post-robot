@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 12.0.0 (2024-06-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* move to @krakenjs scope
+
+### Features
+
+* **client:** Allow iframe node in send function ([#19](https://github.com/krakenjs/post-robot/issues/19)) ([8121eaa](https://github.com/krakenjs/post-robot/commit/8121eaad74b5b3dace9ab13f5d70444320347746))
+* **opener:** avoid changes on the opener on focus ([#96](https://github.com/krakenjs/post-robot/issues/96)) ([abd1b54](https://github.com/krakenjs/post-robot/commit/abd1b54a76a6bb5b5e64f9864699a5d0725a03cd))
+* upgrade to grumbler scripts 8 ([#112](https://github.com/krakenjs/post-robot/issues/112)) ([fbd8984](https://github.com/krakenjs/post-robot/commit/fbd89848437eeace6f58c6bbb6a22cfdac26deda))
+
+
+### Bug Fixes
+
+* **Exports:** Change main to dist/ so its recognized by browserify ([99c9c16](https://github.com/krakenjs/post-robot/commit/99c9c161de5259154e2629a4544befc82fdde4d5))
+* Throw Error if window is closed when type is serialized ([#88](https://github.com/krakenjs/post-robot/issues/88)) ([603cfef](https://github.com/krakenjs/post-robot/commit/603cfeff8117845dfcea8e0ab22fef86b267eeca))
+
+
+* add auto-changelog to project ([ed3f489](https://github.com/krakenjs/post-robot/commit/ed3f4893ac3e54fd2ac5d00a50cb97f8fb6a3561))
+* add tooling for code coverage, changelogs, and conventional commits ([#103](https://github.com/krakenjs/post-robot/issues/103)) ([e3be73c](https://github.com/krakenjs/post-robot/commit/e3be73c8c9fdf05015931f7ec21124e7183c9180))
+* **docs:** update github actions badge url ([#114](https://github.com/krakenjs/post-robot/issues/114)) ([55bdb6e](https://github.com/krakenjs/post-robot/commit/55bdb6e3665602bae386bd0be7b53338ce378271))
+* generate changelog ([a57dc29](https://github.com/krakenjs/post-robot/commit/a57dc2924fea1bb636066b8badec39d7382fdd38))
+* move devDependencies to [@krakenjs](https://github.com/krakenjs) scope ([#107](https://github.com/krakenjs/post-robot/issues/107)) ([d498da0](https://github.com/krakenjs/post-robot/commit/d498da0634eeeee2eb2327b43e420a9e7c51f3d0))
+* move to [@krakenjs](https://github.com/krakenjs) scope ([d707e26](https://github.com/krakenjs/post-robot/commit/d707e2613abdb2e81d0f18ddbf06fcae335d52a2))
+* **release:** 11.0.0 ([16ad589](https://github.com/krakenjs/post-robot/commit/16ad589783f016edea7fc8ab6f28fc5d5525f246))
+* remove token from publish action ([#117](https://github.com/krakenjs/post-robot/issues/117)) ([30ab862](https://github.com/krakenjs/post-robot/commit/30ab862e90a023531cd46d5fe8a7342c887b521b))
+* use prettier ([#108](https://github.com/krakenjs/post-robot/issues/108)) ([cbe0af5](https://github.com/krakenjs/post-robot/commit/cbe0af5d137d667c144835245bf284df56734b3f))
+
 ## [11.0.0](https://github.com/krakenjs/post-robot/compare/v10.0.46...v11.0.0) (2022-03-01)
 
 
