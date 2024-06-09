@@ -1,6 +1,6 @@
 {
   "name": "@krakenjs/post-robot",
-  "version": "12.0.0",
+  "version": "12.0.1",
   "description": "Simple postMessage based server.",
   "main": "index.js",
   "scripts": {
@@ -65,7 +65,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/krakenjs/post-robot.git"
+    "url": "git://github.com/chantter/post-robot.git"
   },
   "keywords": [
     "cross-domain",
